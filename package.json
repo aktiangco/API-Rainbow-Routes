@@ -1,10 +1,10 @@
 {
   "name": "lab-6.3.2-rainbow-routes",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc"
   },
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/HackerUSA-CE/lab-6.3.2-rainbow-routes/issues"
   },
@@ -20,5 +20,11 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.2.3",
+    "typescript": "^5.0.4"
+  },
+  "description": ""
 }
